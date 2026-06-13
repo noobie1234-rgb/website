@@ -1,0 +1,31 @@
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Helvetica;
+}
+
+#ss {
+  height: 200px;
+  width: 400px;
+}
+
+.row,
+#gatekeptRow {
+  display: flex;
+  flex-direction: row !important;
+  justify-content: center;
+  gap: 25px;
+}
+
+
+#ytbutton {
+  margin-top: 25px;
+  height: 35px;
+  width: 150px;
+  font-size: larger;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
